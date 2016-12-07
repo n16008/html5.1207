@@ -1,0 +1,61 @@
+html {
+	font-size: 32px;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+span {
+  font-size: 0.5em;
+}
+
+div {
+	width:100px;
+	height:50px;
+}
+
+#box1 {
+	background: rgb(255, 100, 100);
+}
+
+#box2{
+	background: rgba(255, 100, 100, 0.4);
+}
+
+#box3 {
+	background: hsla(210, 100%, 50%, 0.7);
+}
+
+#box4 {
+	background: hsla(210, 100%, 40%, 0.7);
+}
+
+body { background: skyblue; }
+
+img {
+	border: 7px solid blue;
+	opacity: 0.9;
+}
+
+a[href^="http"] {color: orange;}
+
+li:last-child
+{
+	background: violet;
+}
+
+li:nth-child(3)
+{
+	background: red;
+}
+
+li:nth-last-child(4)
+{
+	background: green;
+}
+
+li:only-child
+{
+	background: gold;
+}
